@@ -103,6 +103,67 @@ Eloquent is Laravel's built-in Object-Relational Mapping (ORM) system that makes
       $user->delete();
       ```
 
+## Using Eloquent ORM for Common Queries
+
+### 1. **Select All Records**
+Retrieve all records from the `users` table:
+```php
+$users = User::all();
+```
+
+Retrieve all records from the `posts` table:
+```php
+$posts = Post::all();
+```
+
+---
+
+### 2. **Select with Condition**
+Retrieve posts created by a specific user:
+```php
+$postsByUser = Post::where('user_id', 1)->get();
+```
+
+Retrieve comments for a specific post:
+```php
+$commentsForPost = Comment::where('post_id', 1)->get();
+```
+
+---
+
+### 3. **Select with `whereIn`**
+Retrieve posts by multiple users:
+```php
+$posts = Post::whereIn('user_id', [1, 2])->get();
+```
+
+Retrieve comments for multiple posts:
+```php
+$comments = Comment::whereIn('post_id', [1, 2])->get();
+```
+## Example Queries with Raw SQL
+Sometimes, you might need to use raw SQL queries for complex operations.
+
+### 1. Select All Records
+```php
+$users = DB::select('SELECT * FROM users');
+```
+
+### 2. Select with Condition
+```php
+$posts = DB::select('SELECT * FROM posts WHERE user_id = ?', [1]);
+```
+
+### 3. Insert a Record
+```php
+DB::insert('INSERT INTO users (name, email) VALUES (?, ?)', ['Alice Green', 'alice@example.com']);
+```
+
+### 4. Update a Record
+```php
+DB::update('UPDATE users SET name = ? WHERE id = ?', ['John Doe Updated', 1]);
+```
+
 ---
 
 ## Database Seeders

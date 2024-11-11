@@ -57,6 +57,7 @@ Here are the installation guides for setting up the necessary tools for Laravel 
 2. [Composer Installation Guide](installation-guides/install-composer-windows.md)
 3. [Visual Studio Code Installation Guide](installation-guides/install-vscode-windows.md)
 4. [Git Bash Installation Guide](installation-guides/install-gitbash-windows.md)
+5[NPM Installation Guide](installation-guides/install-npm-windows.md)
 
 
 ---

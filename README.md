@@ -27,6 +27,7 @@ The repository includes the following topics. Click on the links to explore the 
 5. **[Basic Authentication and Middleware](notes/basic-authentication-and-middleware.md)**
 6. **[Version Control with Git](notes/version-control-with-git.md)**
 7. **[Bringing It All Together](notes/bringing-it-all-together.md)**
+8. **[Extra: SQL Table Creation Tutorial](notes/sql-table-creation-tutorial.md)**
 
 ---
 
