@@ -4,6 +4,9 @@ Selamat datang ke repositori **Learn Laravel**! Repositori ini direka untuk memb
 
 ---
 
+## Nota Bahasa Inggeris
+Untuk nota dalam Bahasa Inggeris, sila rujuk [Learn Laravel](../../README.md).
+
 ## Objektif
 Pada akhir kursus ini, anda akan:
 1. Memahami asas Laravel, termasuk seni bina MVC-nya.

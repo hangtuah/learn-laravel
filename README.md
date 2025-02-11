@@ -5,6 +5,11 @@ Welcome to the **Learn Laravel** repository! This repository is designed to help
 
 ---
 
+## Malay Notes
+For Malay notes, refer to [Belajar Laravel Bahasa Melayu](my/nota/Pendahuluan.md).
+
+
+
 ## Objectives
 By the end of this course, you will:
 1. Understand the fundamentals of Laravel, including its MVC architecture.
