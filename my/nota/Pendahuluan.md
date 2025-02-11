@@ -19,16 +19,13 @@ Pada akhir kursus ini, anda akan:
 ## Topik yang Dibincangkan
 Repositori ini merangkumi topik berikut. Klik pada pautan untuk meneroka nota bagi setiap topik:
 
-1. **[Pengenalan kepada Laravel dan Alat Pembangunan](notes/introduction-to-laravel-and-development-tools.md)**
-2. **[Laluan, Pengawal, dan Paparan](notes/routes-controllers-and-views.md)**
-3. **[Asas Pangkalan Data dengan Laravel](notes/database-basics-with-laravel.md)**
-4. **[Eloquent ORM dan Operasi CRUD](notes/eloquent-orm-and-crud-operations.md)**
-5. **[Pengesahan Asas dan Middleware](notes/basic-authentication-and-middleware.md)**
-6. **[Kawalan Versi dengan Git](notes/version-control-with-git.md)**
-7. **[Menggabungkan Semua Aspek](notes/bringing-it-all-together.md)**
-8. **[Tambahan: Tutorial Membuat Jadual SQL](notes/sql-table-creation-tutorial.md)**
-
----
+1. **[Pengenalan kepada Laravel dan Alat Pembangunan](introduction-to-laravel-and-development-tools.md)**
+2. **[MVC Framework](mvc-framework.md)**
+3. **[Routes, Controller, Views](routes-controllers-and-views.md)**
+4. **[Blade](Blade Directive/Pengenalan.md)**
+5. **[Model, Eloquent ORM and CRUD Operation](model-eloquent-orm-and-crud-operation.md)**
+6. **[Authentication and Authorization](authentication-and-authorization.md)**
+7. **[Version Control with Git](version-control-with-git.md)**
 
 ## Cara Menggunakan Repositori Ini
 1. Klon repositori:

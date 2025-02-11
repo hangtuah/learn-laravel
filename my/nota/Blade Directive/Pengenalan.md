@@ -1,3 +1,10 @@
+# **Nota: Blade dalam Laravel**
+
+## **Apa itu Blade?**
+Blade ialah enjin templat yang digunakan dalam Laravel untuk membangunkan paparan dengan lebih efisien. Ia membolehkan kita menggunakan sintaks yang lebih mudah dan tersusun berbanding HTML biasa.
+
+---
+
 # **Apakah Itu Blade Directive?**
 
 Blade Directive adalah arahan khas dalam Laravel Blade yang bermula dengan simbol `@`. Ia digunakan untuk menguruskan logik dalam templat Blade seperti pernyataan bersyarat, gelung, penyertaan fail, pengesahan pengguna, dan banyak lagi. Blade menyediakan pendekatan yang lebih bersih dan mudah difahami berbanding penggunaan PHP biasa dalam templat.

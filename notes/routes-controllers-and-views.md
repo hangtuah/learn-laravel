@@ -1,4 +1,3 @@
-
 # Routes, Controllers, and Views
 
 ## Introduction
@@ -17,6 +16,11 @@ Imagine your web application is like a **restaurant**:
 3. **View (Plate of Food)**:
    - The view is like the **plate of food** served to the customer. It takes the processed data and displays it as a web page.
    - Example: The view formats the list of dishes into a nice HTML menu for the customer.
+
+---
+
+## MVC Framework Design
+![MVC Framework](../assets/images/mvc-framework-design.jpg)
 
 ---
 
@@ -57,11 +61,13 @@ Routes are defined in the `routes/web.php` file. They determine which controller
        });
    });
    ```
+
 5. **Route to a Controller with Name**:
    Map a route to a specific controller method and give it a name:
    ```php
    Route::get('/report/list', [App\Http\Controllers\ReportController::class, 'index'])->name('report.index');
    ```
+
 ---
 
 ## Controllers in Laravel
@@ -153,3 +159,4 @@ Laravel’s **Routes**, **Controllers**, and **Views** work together to handle u
 - **Views**: Plate of food – Format and display the response.
 
 This makes Laravel applications clean, organized, and easy to manage.
+
