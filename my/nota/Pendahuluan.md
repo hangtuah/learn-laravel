@@ -25,7 +25,7 @@ Repositori ini merangkumi topik berikut. Klik pada pautan untuk meneroka nota ba
 1. **[Pengenalan kepada Laravel dan Alat Pembangunan](introduction-to-laravel-and-development-tools.md)**
 2. **[MVC Framework](mvc-framework.md)**
 3. **[Routes, Controller, Views](routes-controllers-and-views.md)**
-4. **[Blade](Blade Directive/Pengenalan.md)**
+4. **[Blade](Blade_Directive/Pengenalan.md)**
 5. **[Model, Eloquent ORM and CRUD Operation](model-eloquent-orm-and-crud-operation.md)**
 6. **[Authentication and Authorization](authentication-and-authorization.md)**
 7. **[Version Control with Git](version-control-with-git.md)**
